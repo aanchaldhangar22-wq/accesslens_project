@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f6ff;
+  padding: 20px;
+}
+
+h1 {
+  color: #4b3cff;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #4b3cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
