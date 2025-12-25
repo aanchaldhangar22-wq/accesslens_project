@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AccessLens MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>👓 AccessLens</h1>
+  <p>AI-powered accessibility tool</p>
+
+  
+  <section>
+    <h2>🔊 Text to Speech</h2>
+    <textarea id="ttsText" placeholder="Enter text here..."></textarea>
+    <br>
+    <button onclick="textToSpeech()">Read Aloud</button>
+  </section>
+
+ 
+  <section>
+    <h2>🎤 Speech to Text</h2>
+    <button onclick="startSpeech()">Start Speaking</button>
+    <p id="speechResult"></p>
+  </section>
+
+
+  <section>
+    <h2>📷 Image to Text (OCR)</h2>
+    <input type="file" id="imageInput">
+    <br><br>
+    <button onclick="extractText()">Extract Text</button>
+    <p id="ocrResult"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
